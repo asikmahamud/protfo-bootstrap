@@ -19,15 +19,15 @@ document.addEventListener("alpine:init", () => {
     }));
 });
 
-window.addEventListener("load", (event) => {
-    gsap.from('.fade-in', {
-        opacity: 0,
-        duration: .3,
-        delay: .5,
-        y: 50,
-        stagger: .1
-    })
-});
+// window.addEventListener("load", (event) => {
+//     gsap.from('.fade-in', {
+//         opacity: 0,
+//         duration: .3,
+//         delay: .5,
+//         y: 50,
+//         stagger: .1
+//     })
+// });
 
 
 // navbar
