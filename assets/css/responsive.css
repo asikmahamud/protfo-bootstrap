@@ -1,0 +1,400 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:575.98px) {   
+    .header-wrap {
+        width: 100%;
+        display: flex;
+        padding: 0 20px;
+    }
+    
+    .nav-bar ul {
+        display: none;
+    }
+
+    .menubar {
+        position: relative;
+    }
+    
+    .navbar  {
+        list-style: none;
+        width: 176px;
+        background: #fff;
+        position: absolute;
+        top:55px;
+        left: 0;
+        padding:12px 16px;
+        border-radius: 8px;
+    }
+
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .navbar ul li a {
+        display: flex;
+        gap: 10px;
+        color: rgb(55 65 81);
+        font-weight: 400;
+        padding-bottom: 10px;
+        text-decoration: none;
+    }
+
+    .navbar ul li a svg {
+        width: 19px;
+        margin-right: 10px;
+    }
+
+    .main-content {
+        display: block;
+        width: 100%;
+    }
+
+    .left-side {
+        padding: 40px 0;
+        margin-top: 0;
+    }
+
+    .left-side h2 {
+        font-size: 30px;
+    }
+
+    .left-side h3 {
+        font-size: 48px;
+    }
+
+    .right-side {
+        width: 100%;
+        padding: 0 20px;
+        padding-bottom: 32px;
+    }
+
+    .right-side h2 {
+        padding-top: 60px;
+    }
+
+    /* about */
+    .section_wrapper {
+        padding: 20px; 
+    }
+
+    .sub-content {
+        padding-right: 0;
+    }
+
+    .exp-wrap {
+        display: block;
+        padding: 20px;
+
+    }
+    .exp-content h4 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 8px;
+    }
+
+    /* about */
+    .single-card-wrap {
+        display: block;
+    }
+
+    .single-card {
+        display: block;
+        width: 100%;
+    }
+
+    .single-card:nth-child(2) {
+        margin-top: 16px;
+    }
+
+    .single-card:nth-child(3) {
+        margin-top: 16px;
+    }
+    /* resume */
+    .sk-wrap {
+        display: block;
+    }
+    /* work */
+    .btn-wrap {
+        display: none;
+    }
+
+    /* contact */
+
+    .form-wrap {
+        padding: 20px;
+    }
+    .contact-wrap {
+        display: block;
+    }
+
+    .contact:last-child {
+        margin-top: 16px;
+    }
+
+    .single-inp-wrap {
+        display: block;
+    }
+
+    .single-inp {
+        width: 100%;
+    }
+
+    .single-inp:nth-child(2) {
+        margin-top: 16px;
+    }
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width:767.98px) {
+    .nav-bar ul {
+        display: none;
+    }
+
+    .menubar {
+        position: relative;
+    }
+
+    .navbar  {
+        list-style: none;
+        width: 176px;
+        background: #fff;
+        position: absolute;
+        top:55px;
+        left: 0;
+        padding:12px 16px;
+        border-radius: 8px;
+    }
+
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .navbar ul li a {
+        display: flex;
+        gap: 10px;
+        color: rgb(55 65 81);
+        font-weight: 400;
+        padding-bottom: 10px;
+        text-decoration: none;
+    }
+
+    .navbar ul li a svg {
+        width: 19px;
+        margin-right: 10px;
+    }
+
+    .main-content {
+        display: block;
+        width: 100%;
+    }
+
+    .main-content {
+        display: block;
+        width: 100%;
+    }
+    .left-side {
+        margin-top: 0;
+    }
+    .right-side {
+        width: 100%;
+        margin-top: 132px;
+    }
+
+    .right-side h2 {
+        padding-top: 60px;
+    }
+
+    /* about */
+    .sub-content {
+        padding-right: 0;
+    }
+    /* resume */
+    .sk-wrap {
+        display: block;
+    }
+    /* work */
+    .btn-wrap {
+        display: none;
+    }
+
+    /* contact */
+    .contact-wrap {
+        display: block;
+    }
+
+    .contact:last-child {
+        margin-top: 16px;
+    }
+
+    .single-inp-wrap {
+        display: block;
+    }
+
+    .single-inp {
+        width: 100%;
+    }
+
+    .single-inp:nth-child(2) {
+        margin-top: 16px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991.98px) {
+    
+    .menubar {
+        display: flex;
+    }
+    .nav-bar ul {
+        display: none;
+    }
+
+    .navbar  {
+        list-style: none;
+        width: 176px;
+        background: #fff;
+        position: absolute;
+        top:55px;
+        left: 0;
+        padding:12px 16px;
+        border-radius: 8px;
+    }
+
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .navbar ul li a {
+        display: flex;
+        gap: 10px;
+        color: rgb(55 65 81);
+        font-weight: 400;
+        padding-bottom: 10px;
+        text-decoration: none;
+    }
+
+    .navbar ul li a svg {
+        width: 19px;
+        margin-right: 10px;
+    }
+
+    .main-content {
+        display: block;
+        width: 100%;
+    }
+   
+    .main-content {
+        display: block;
+        width: 100%;
+    }
+    .left-side {
+        margin-top: 0;
+    }
+    .right-side {
+        width: 100%;
+        margin-top: 132px;
+    }
+
+    .right-side h2 {
+        padding-top: 60px;
+    }
+
+    /* about */
+    .sub-content {
+        padding-right: 0;
+    }
+
+    .single-card {
+        display: flex;
+    }
+
+    .exp-content {
+        margin-top: 0;
+    }
+
+    /* resume */
+    .sk-wrap {
+        display: block;
+    }
+
+    /* work */
+    .btn-wrap {
+        display: none;
+    }
+
+}
+
+/* large devices (landscape tablets, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1199.98px) {
+    .menubar {
+        display: none;
+        position: relative;
+    }
+
+    .nav-bar ul {
+        display: flex;
+    }
+    .main-content {
+        display: block;
+        width: 100%;
+    }
+   
+    .left-side {
+        margin-top: 0;
+    }
+    .right-side {
+        width: 100%;
+        margin-top: 132px;
+    }
+
+    .right-side h2 {
+        padding-top: 60px;
+    }
+
+    /* about */
+    .sub-content {
+        padding-right: 0;
+    }
+    .single-card {
+        display: block;
+    }
+
+    .exp-content {
+        margin-top: 8px;
+    }
+
+    .single-card {
+        margin-top: 20px;
+    }
+    /* work */
+    .model-wrap {
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menubar {
+        display: none;
+        position: relative;
+    }
+    .nav-bar ul {
+        display: flex;
+    }
+
+    .main-content {
+        display: flex;
+    }
+
+    /* work */
+    .model-wrap {
+        display: none;
+    }
+    
+   
+}
