@@ -142,7 +142,6 @@ header {
 }
 /* left side */
 .left-side {
-    padding: 128px 0;
     width: 100%;
     margin-top: 80px;
     z-index: 10;
@@ -197,6 +196,9 @@ header {
 }
 
 /* right side */
+.sidebar{
+    display: block !important;
+}
 .right-side {
     width: 384px;
     max-height: 632px;
@@ -327,7 +329,8 @@ header {
 }
 
 .phone-wrap .content h4 {
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 500;
 }
 .location-wrap {
     margin-top: 12px;
@@ -361,7 +364,7 @@ header {
 }
 
 .location-wrap .content h4 {
-    font-size: 16px;
+    font-size: 15px;
 }
 .email-wrap {
     margin-top: 12px;
@@ -372,7 +375,7 @@ header {
     width: 40px;
     height: 40px;
     background-color: #fff;
-    color: rgb(21 128 61);
+    color: #db2777;
     border-radius: 50%;
     display: flex;
     flex-shrink: 0;
@@ -395,7 +398,7 @@ header {
 }
 
 .email-wrap .content h4 {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .birthday-wrap {
@@ -406,7 +409,7 @@ header {
     width: 40px;
     height: 40px;
     background-color: #fff;
-    color: rgb(21 128 61);
+    color: #eab308;
     border-radius: 50%;
     display: flex;
     flex-shrink: 0;
@@ -429,7 +432,7 @@ header {
 }
 
 .birthday-wrap .content h4 {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .cv-btn {
@@ -500,6 +503,8 @@ header {
    font-size: 24px;
    line-height: 32px;
    color: rgb(75 85 99);
+   font-weight: 600;
+   font-family: 'Roboto', 'sans-serif';
 }
 
 .sub-title.client {
@@ -542,10 +547,11 @@ header {
 }
 
 .exp-content h4 {
-    font-size: 22px;
-    line-height: 30px;
-    font-weight: 600;
-    color: rgb(55 65 81);
+   font-size: 24px;
+   line-height: 32px;
+   color: rgb(75 85 99);
+   font-weight: 600;
+   font-family: 'Roboto', 'sans-serif';
 }
 
 .exp-content p {
@@ -580,15 +586,10 @@ header {
     align-items: center;
 }
 
-.single-client-card img {
-    width: 148px;
-    height: 48px;
-}
 
 /* resume */
 .resume {
     background-color: rgb(248 250 252);
-    padding: 40px;
     border-radius: 16px;
 }
 
@@ -845,9 +846,7 @@ header {
 }
 
 /* contact */
-.section_wrapper h4{
-    margin-top: 40px;
-}
+
 .contact-wrap {
     display: flex;
     gap: 32px;
@@ -878,12 +877,7 @@ header {
     line-height: 30px;
     margin-top: 12px;
 }
-.section_wrapper h4 {
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: 500;
-    color: rgb(156 163 175);
-}
+
 .form-wrap {
     background-color: rgb(239 246 255);
     padding: 32px;
@@ -1073,7 +1067,7 @@ header {
     background-color: #1e293b;
 }
 .dark .content h4{
-    color: white;
+    color: #cbd5e1;
 }
 .dark .icon{
     background-color: black;
@@ -1175,11 +1169,12 @@ header {
     background-color: #0f172a;
     border: 1px solid #334155;
 }
-.dark .navbar{
-    background-color: #1e293b;
+.dark .phone-wrap{
+    border-bottom: 1px dashed #4b5563;
 }
-
-.dark .navbar ul li a{
-    color: #e2e8f0;
+.dark .location-wrap{
+    border-bottom: 1px dashed #4b5563;
 }
-
+.dark .email-wrap{
+    border-bottom: 1px dashed #4b5563;
+}
