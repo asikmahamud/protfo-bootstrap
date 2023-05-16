@@ -139,7 +139,6 @@ header {
     display: flex;
     gap: 48px;
     padding-bottom: 48px;
-    padding-top: 48px;
 }
 /* left side */
 .left-side {
@@ -473,7 +472,6 @@ header {
 .about {
     position: relative;
     width: 100%;
-    margin-top: 77px;
     z-index: 10;
 }
 .about h2 {
@@ -867,12 +865,10 @@ header {
     width: 64px;
     height: 64px;
 }
-.contact a{
-    color: rgb(55 65 81);
-    text-decoration: none;
-}
+
 .contact-wrap a{
     text-decoration: none;
+    color: rgb(55 65 81) !important;
 }
 .contact h3 {
     font-size: 18px;

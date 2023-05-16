@@ -187,7 +187,7 @@
                     <div class="about flex-grow">
                         <div id="works">
                             <h2 class="fade-in">
-                                My Work
+                                My Works
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                     stroke="currentColor" class="w-10 h-10 text-gray-400 ml-5">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -221,8 +221,8 @@
                                     <template x-for="work in works">
                                         <div class="col-sm-6 col-lg-4"
                                             x-show="activeCategory === 'All' || work.category === activeCategory"
-                                            :class="work.bgClass && work.bgClass">
-                                            <div class="work-card fade-in">
+                                            >
+                                            <div class="work-card fade-in" :style="{backgroundColor: work.bgClass}">
                                                 <a href="#" class="work-img">
                                                     <img loading="lazy" :src="work.image" alt="">
                                                     <p>
@@ -249,7 +249,7 @@
                     <!-- Left side end -->
 
                     <!-- Sidebar -->
-                    <div class="right-side flex-shrink-0 fade-in">
+                    <div class="right-side flex-shrink-0">
                         <img src="assets/images/person.jpg" alt="User">
                         <h2>
                             Elizabeth Olsen
@@ -386,37 +386,37 @@
                 name: 'Food Delivery',
                 category: 'Graphic Design',
                 image: 'assets/images/work-2.jpg',
-                bgClass: 'rgb(24 24 27)'
+                bgClass: 'rgb(255 251 235)'
             },
             {
                 name: 'E-commerce Site',
                 category: 'Website',
                 image: 'assets/images/work-6.jpg',
-                bgClass: 'rgb(24 24 27)'
+                bgClass: 'rgb(239 246 255)'
             },
             {
                 name: 'Food Menu App',
                 category: 'Mobile App',
                 image: 'assets/images/work-3.jpg',
-                bgClass: 'rgb(24 24 27)'
+                bgClass: 'rgb(254 242 242)'
             },
             {
                 name: 'Chat App',
                 category: 'UI/UX',
                 image: 'assets/images/work-5.jpg',
-                bgClass: 'rgb(24 24 27)'
+                bgClass: 'rgb(239 246 255 )'
             },
             {
                 name: 'Zombie Fashion',
                 category: 'Graphic Design',
                 image: 'assets/images/work-7.jpg',
-                bgClass: 'rgb(24 24 27)'
+                bgClass: 'rgb(254 252 232)'
             },
             {
                 name: 'Chat GPT',
                 category: 'Mobile App',
                 image: 'assets/images/work-8.jpg',
-                bgClass: 'rgb(24 24 27)'
+                bgClass: 'rgb(254 242 242)'
             },
         ]
     }

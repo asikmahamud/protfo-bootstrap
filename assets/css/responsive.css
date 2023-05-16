@@ -168,6 +168,9 @@
     .phone-wrap .content h4 {
         font-size: 15px;
     }
+    .about{
+        margin-top: 60px;
+    }
 
     
 }
@@ -285,6 +288,9 @@
     .phone-wrap .content h4 {
         font-size: 16px;
     }
+    .about{
+        margin-top: 77px;
+    }
 
 }
 
@@ -391,6 +397,9 @@
     .phone-wrap .content h4 {
         font-size: 16px;
     }
+    .about{
+        margin-top: 77px;
+    }
 
 }
 
@@ -458,6 +467,9 @@
     .phone-wrap .content h4 {
         font-size: 16px;
     }
+    .about{
+        margin-top: 77px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -495,6 +507,9 @@
     }
     .phone-wrap .content h4 {
         font-size: 16px;
+    }
+    .about{
+        margin-top: 77px;
     }
    
 }
