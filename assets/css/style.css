@@ -139,6 +139,7 @@ header {
     display: flex;
     gap: 48px;
     padding-bottom: 48px;
+    padding-top: 48px;
 }
 /* left side */
 .left-side {
@@ -1160,6 +1161,7 @@ header {
 .dark .form-wrap input{
     background-color: #0f172a;
     border: 1px solid #334155;
+    color: #e2e8f0;
 }
 .dark .form-wrap label{
     background-color: #0f172a;
@@ -1168,6 +1170,7 @@ header {
 .dark .form-wrap textarea{
     background-color: #0f172a;
     border: 1px solid #334155;
+    color: #e2e8f0;
 }
 .dark .phone-wrap{
     border-bottom: 1px dashed #4b5563;
