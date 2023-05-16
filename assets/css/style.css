@@ -330,7 +330,6 @@ header {
 }
 
 .phone-wrap .content h4 {
-    font-size: 15px;
     font-weight: 500;
 }
 .location-wrap {
@@ -1180,4 +1179,7 @@ header {
 }
 .dark .email-wrap{
     border-bottom: 1px dashed #4b5563;
+}
+.dark .phone-wrap .content h4{
+    color: #d1d5db !important;
 }

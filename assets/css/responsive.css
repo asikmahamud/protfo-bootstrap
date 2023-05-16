@@ -165,6 +165,9 @@
     .right-side {
         display: none;
     }
+    .phone-wrap .content h4 {
+        font-size: 15px;
+    }
 
     
 }
@@ -279,6 +282,9 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .phone-wrap .content h4 {
+        font-size: 16px;
+    }
 
 }
 
@@ -382,6 +388,9 @@
     .right-side {
         display: none;
     }
+    .phone-wrap .content h4 {
+        font-size: 16px;
+    }
 
 }
 
@@ -446,6 +455,9 @@
     .right-side {
         display: none;
     }
+    .phone-wrap .content h4 {
+        font-size: 16px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -480,6 +492,9 @@
     .client-wrap{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+    }
+    .phone-wrap .content h4 {
+        font-size: 16px;
     }
    
 }
