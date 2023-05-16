@@ -850,6 +850,7 @@ header {
     gap: 32px;
 }
 .contact {
+    display: block;
     width: 100%;
     background-color: rgb(236 254 255);
     padding: 24px;
@@ -866,8 +867,11 @@ header {
     width: 64px;
     height: 64px;
 }
-.contact a {
+.contact a{
     color: rgb(55 65 81);
+    text-decoration: none;
+}
+.contact-wrap a{
     text-decoration: none;
 }
 .contact h3 {
