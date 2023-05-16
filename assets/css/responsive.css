@@ -171,6 +171,9 @@
     .about{
         margin-top: 60px;
     }
+    .pt{
+        padding: 40px 0;
+    }
 
     
 }
@@ -291,6 +294,9 @@
     .about{
         margin-top: 77px;
     }
+    .pt{
+        padding: 40px 0;
+    }
 
 }
 
@@ -400,6 +406,9 @@
     .about{
         margin-top: 77px;
     }
+    .pt{
+        padding: 60px 0;
+    }
 
 }
 
@@ -470,6 +479,9 @@
     .about{
         margin-top: 77px;
     }
+    .pt{
+        padding: 80px 0;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -510,6 +522,9 @@
     }
     .about{
         margin-top: 77px;
+    }
+    .pt{
+        padding: 80px 0;
     }
    
 }
