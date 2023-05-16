@@ -186,7 +186,7 @@
                     <!-- Left side -->
                     <div class="about flex-grow">
                         <div id="about">
-                            <h2>
+                            <h2 class="fade-in">
                                 About Me
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                     stroke="currentColor" class="w-10 h-10 text-gray-400 ml-5">
@@ -194,19 +194,19 @@
                                         d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                                 </svg>
                             </h2>
-                            <div class="section_wrapper">
+                            <div class="section_wrapper fade-in">
                                 <div>
                                     <h3 class="sub-title">
                                         My Story.
                                     </h3>
                                     <div class="sub-content">
-                                        <p>
+                                        <p class="fade-in">
                                             Lorem ipsum dolor sit amet, consectetur
                                             adipisicing elit. Atque beatae debitis, ea fugiat id mollitia natus nostrum
                                             optio
                                             qui voluptatem!
                                         </p>
-                                        <p>
+                                        <p class="fade-in">
                                             Lorem ipsum dolor sit amet, consectetur
                                             adipisicing elit. Cum molestiae nulla, quaerat reiciendis saepe ullam
                                             voluptates!
@@ -219,13 +219,13 @@
                                 </div>
                                 <!-- expertise -->
                                 <div class="expertise">
-                                    <h3 class="sub-title">
+                                    <h3 class="sub-title fade-in">
                                         My Expertise.
                                     </h3>
                                     <div class="row">
                                         <template x-data="expertises" x-for="expertise in expertises">
                                             <!-- single card -->
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 fade-in">
                                                 <div class="single-card">
                                                     <div class="flex-shrink-0 exp-img">
                                                         <img :src="expertise.image" alt="">
@@ -247,11 +247,11 @@
 
                                 <!-- clients -->
                                 <div class="clients">
-                                    <h3 class="sub-title client">
+                                    <h3 class="sub-title client fade-in">
                                         My Clients.
                                     </h3>
                                     <!-- client card wrap -->
-                                    <div class="gx-0 client-wrap">
+                                    <div class="gx-0 client-wrap fade-in">
                                         <template x-data="clients" x-for="client in clients">
                                             <div class="single-client pd">
                                                 <div class="single-client-card">
@@ -395,6 +395,7 @@
     </div>
 </body>
 
+<script src="assets/js/gsap.min.js"></script>
 <script src="assets/js/main.js"></script>
 
 <script>

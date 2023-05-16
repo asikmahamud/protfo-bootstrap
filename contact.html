@@ -185,7 +185,7 @@
 
                     <!-- Left side -->
                     <div x-data="contactModule" id="contact" class="about">
-                        <h2>
+                        <h2 class="fade-in">
                             Contact Me
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="w-10 h-10 text-gray-400 ml-5">
@@ -193,8 +193,8 @@
                                     d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                             </svg>
                         </h2>
-                        <div class="section_wrapper ">
-                            <div class="contact-wrap">
+                        <div class="section_wrapper fade-in">
+                            <div class="contact-wrap fade-in">
                                 <div class="contact">
                                     <a href="#" class="">
                                         <img src="assets/images/phone.png" alt="">
@@ -210,11 +210,11 @@
                                 </div>
                             </div>
 
-                            <h4>Let's discuss about your ideas</h4>
+                            <h4 class="fade-in">Let's discuss about your ideas</h4>
                             <form @submit.prevent="submit">
                                 <div class="form-wrap">
                                     <div class="single-inp-wrap">
-                                        <div class="single-inp">
+                                        <div class="single-inp fade-in">
                                             <label :class="{'label_cls' : focused.name || form.name}">Full Name</label>
                                             <input type="text" required
                                             x-model="form.name"
@@ -222,7 +222,7 @@
                                             @blur="focused.name=false">
                                         </div>
         
-                                        <div class="single-inp">
+                                        <div class="single-inp fade-in">
                                             <label :class="{'label_cls' : focused.subject || form.subject}">Subject</label>
                                             <input type="text" required
                                             x-model="form.subject"
@@ -231,7 +231,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="single-inp email">
+                                    <div class="single-inp email fade-in">
                                         <label :class="{'label_cls' : focused.email || form.email}">Email Address</label>
                                         <input type="email" required
                                         x-model="form.email"
@@ -239,7 +239,7 @@
                                         @blur="focused.email=false">
                                     </div>
 
-                                    <div class="textarea_main">
+                                    <div class="textarea_main fade-in">
                                         <label :class="{'label_cls' : focused.message || form.message}">message</label>
                                         <textarea cols="20" rows="5" required
                                         x-model="form.message"
@@ -247,7 +247,7 @@
                                         @blur="focused.message=false">message</textarea>
                                     </div>
 
-                                    <button class="hireme mt-4">Submit</button>
+                                    <button class="hireme mt-4 fade-in">Submit</button>
                                 </div>
                             </form>
                         </div>
@@ -393,7 +393,7 @@
         <!-- main end -->
     </div>
 </body>
-
+<script src="assets/js/gsap.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script>
     const contactModule = {

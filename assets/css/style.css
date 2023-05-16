@@ -468,12 +468,6 @@ header {
     margin-right: 8px;
 }
 
-/* dark mode */
-
-.dark .section_wrapper {
-    background: black;
-}
-
 
 /* about page */
 .about {
@@ -497,6 +491,10 @@ header {
     background-color: #fff;
     padding: 40px;
     border-radius: 16px;
+}
+.section_wrapper h4{
+    color: #9ca3af;
+    margin-top: 48px;
 }
 
 .sub-title {
@@ -895,15 +893,6 @@ header {
 }
 
 
-/* .single-inp label {
-    position: absolute;
-    top: -8px;
-    left: 12px;
-    font-size: 12px;
-    color: rgb(107 114 128);
-    padding: 0 4px;
-} */
-
 .single-inp label {
     display: block;
     position: absolute;
@@ -914,6 +903,7 @@ header {
     border-radius: 2px;
     transition-duration: .2s;
     margin-bottom: 4px;
+    color: #6b7280;
 }
 .label_cls{
     top: -10px !important;
@@ -952,6 +942,7 @@ header {
     border-radius: 2px;
     transition-duration: .2s;
     margin-bottom: 4px;
+    color: #6b7280;
 }
 
 .textarea_main textarea {
@@ -1093,6 +1084,9 @@ header {
 .dark .work-content a{
     color: #e5e7eb;
 }
+.dark .section_wrapper {
+    background: black;
+}
 .dark .section_wrapper p{
     color: #94a3b8;
 }
@@ -1101,9 +1095,6 @@ header {
 }
 .dark .single-card{
     background-color: #1e293b;
-}
-.dark .section_wrapper h4{
-    color: #cbd5e1;
 }
 .dark .single-client-card{
     background-color: #1e293b;
@@ -1182,4 +1173,10 @@ header {
 }
 .dark .phone-wrap .content h4{
     color: #d1d5db !important;
+}
+.dark .single-inp label{
+    color: #94a3b8;
+}
+.textarea_main label{
+    color: #94a3b8; 
 }
